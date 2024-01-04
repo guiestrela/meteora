@@ -2,7 +2,7 @@
     display: flex;
     width: 375px;
     height: 58px;
-    background-color: #000000;
+    background-color: var(--cor-preto);
     justify-content: space-between;
 }
 
@@ -44,7 +44,7 @@
 .busca__mob {
     display: flex;
     width: 225.6px;
-    height: 35px;
+    height: 37px;
     top: 82px;
     left: 27px;
     border: 1px solid #000000;
@@ -59,7 +59,7 @@
     left: 12px;
     font-size: 13px;
     font-weight: 400;
-    color: #6C757D;
+    color: var(--cor-cinza);
     border: thick;    
 }
 

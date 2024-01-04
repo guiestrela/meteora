@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    --background-body: #FFFFFF;
+    --background-header: #FFFFFF;
+    
+    --cor-cinza: #6C757D;
+    --cor-preto: #000000;
+    --cor-verde: #DAFF01;
+    --cor-roxo: #9353FF;
+    
+    --cor-coral: #EE6471;
+    --cor-laranja: #F87F46;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
