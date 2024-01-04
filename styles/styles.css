@@ -2,7 +2,7 @@
 *::before,
 *::after {
     --background-body: #FFFFFF;
-    --background-header: #FFFFFF;
+    --background-header: #000000;
     
     --cor-cinza: #6C757D;
     --cor-preto: #000000;
@@ -17,4 +17,5 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    background-color: var(--background-body);
 }
