@@ -1,0 +1,87 @@
+.cabecalho__mob {
+    display: flex;
+    width: 375px;
+    height: 58px;
+    background-color: #000000;
+    justify-content: space-between;
+}
+
+.cabecalho__logo__mob {
+    align-items: center;   
+    position: relative;
+    top: 20px;
+    left: 22px;
+}
+
+/* menu mob*/
+
+.menu__mob__container img{
+    align-items: center;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    top: -20px;
+    left: 297px;
+}
+
+.menu__mob {
+    display: none;
+}
+
+/* busca mob*/
+
+.busca__mob__container {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 322.22px;
+    height: 37px;
+    top: 82px;
+    left: 27px;
+    border: 1px;
+}
+
+.busca__mob {
+    display: flex;
+    width: 225.6px;
+    height: 35px;
+    top: 82px;
+    left: 27px;
+    border: 1px solid #000000;
+}
+
+.busca__mob input{
+    display: flex;
+    position: absolute;
+    width: 195px;
+    height: 20px;
+    top: 9px;
+    left: 12px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #6C757D;
+    border: thick;    
+}
+
+.botao__busca__mob {
+    width: 88.42px;
+    height: 37px;
+    top: 82px;
+    left: 260.8px;
+    border: 1px solid#000000;
+    padding: 9px 12px 9px 12px;
+    gap: 6px;
+    background-color: transparent;
+}
+
+/*baner mob*/
+
+.banner {
+    display: flex;
+    position:absolute;
+    align-items: center;
+    background-image: url(../img/Banner_carousel_1_375.png);
+    width: 375px;
+    height: 415px;  
+    top: 144px; 
+}
