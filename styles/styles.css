@@ -5,6 +5,7 @@
     --background-header: #000000;
     
     --cor-cinza: #6C757D;
+    --cor-cinza2: #343A40;
     --cor-preto: #000000;
     --cor-verde: #DAFF01;
     --cor-roxo: #9353FF;
@@ -18,4 +19,119 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--background-body);
+}
+
+.cabecalho__mob {
+    display: flex;
+    position: absolute;
+    width: 375px;
+    height: 58px;
+    background-color: var(--background-header);
+    justify-content: space-between;
+}
+
+.cabecalho__logo__mob {
+    align-items: center;   
+    position: relative;
+    top: 20px;
+    left: 22px;
+}
+
+/* menu mob*/
+
+.menu__mob__container {
+    display: flex;
+    position: absolute;
+}
+
+.burguer{
+    position: fixed;
+    width: 18px;
+    height: 18px;
+    top: 20px;
+    left: 336px;
+    color: var(--cor-verde);
+}
+
+.menu__mob {
+    position: fixed;
+    width: 144px;
+    height: 197px;
+    left: 232px;
+    padding: 42px 24px 42px 24px;
+
+    background-color:var(--cor-cinza2);       
+}
+
+.menu__mob li {
+    gap: 24px;
+}
+
+/* display menu burguer*/
+
+.menu__mob {
+    display: none;
+}
+
+/* busca mob*/
+
+.busca__mob__container {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 322.22px;
+    height: 37px;
+    top: 82px;
+    left: 27px;
+    border: 1px;
+}
+
+.busca__mob {
+    display: flex;
+    width: 225.6px;
+    height: 37px;
+    top: 82px;
+    left: 27px;
+    border: 1px solid #000000;
+}
+
+.busca__mob input{
+    display: flex;
+    position: absolute;
+    width: 195px;
+    height: 20px;
+    top: 9px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--cor-cinza);
+    border: thick;    
+}
+
+.botao__busca__mob {
+    width: 88.42px;
+    height: 37px;
+    top: 82px;
+    left: 260.8px;
+    border: 1px solid#000000;
+    padding: 9px 12px 9px 12px;
+    gap: 6px;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+/*baner mob*/
+
+.banner {
+    display: flex;
+    position:absolute;
+    align-items: center;
+    background-image: url(../img/Banner_carousel_1_375.png);
+    width: 375px;
+    height: 415px;  
+    top: 144px; 
 }
