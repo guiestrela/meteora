@@ -4,4 +4,5 @@ function clickMenu() {
     }else {
         menu__mob.style.display = 'block'
     }
-    }
+}
+

@@ -47,6 +47,7 @@ body {
     display: flex;
     position: absolute;
     z-index: 1;
+    top: -20px;
 }
 
 .burguer{
@@ -56,6 +57,7 @@ body {
     top: 20px;
     left: 336px;
     color: var(--cor-verde);
+    z-index: 1;
 }
 
 .menu__mob {
