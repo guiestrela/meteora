@@ -10,6 +10,8 @@
 .cabecalho__logo {
     display: flex;
     align-items: center;
+    width: 429.56px;
+    height: 24px;
     top: 18px;
     left: 23px;
     gap: 20px;
@@ -17,6 +19,13 @@
 
 .nav {
     display: flex;
-    position: relative;
-    
+    position: relative;   
+    justify-content: space-between;     
+}
+
+.nav a {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
