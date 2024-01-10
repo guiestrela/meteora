@@ -1,6 +1,7 @@
 .cabecalho {
     display: flex;
     position: absolute;
+    align-items: center;
     width: 768px;
     height: 58px;
     background-color: var(--cor-cinza);
@@ -28,4 +29,5 @@
     font-size: 13px;
     font-weight: 400;
     color: #FFFFFF;
+    gap: 20px;
 }
