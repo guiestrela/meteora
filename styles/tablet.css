@@ -1,0 +1,22 @@
+.cabecalho {
+    display: flex;
+    position: absolute;
+    width: 768px;
+    height: 58px;
+    background-color: var(--cor-cinza);
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    top: 18px;
+    left: 23px;
+    gap: 20px;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    
+}
