@@ -4,8 +4,8 @@
     align-items: center;
     width: 768px;
     height: 58px;
-    background-color: var(--cor-cinza);
-    justify-content: space-between;
+    background-color: #000000;
+    justify-content: space-around
 }
 
 .cabecalho__logo {
@@ -21,7 +21,8 @@
 .nav {
     display: flex;
     position: relative;   
-    justify-content: space-between;     
+    justify-content: space-between;
+    gap: 20px;    
 }
 
 .nav a {
@@ -29,5 +30,55 @@
     font-size: 13px;
     font-weight: 400;
     color: #FFFFFF;
-    gap: 20px;
+}
+
+.busca__container {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    width: 245px;
+    height: 48px;
+    top: 82px;
+    left: 27px;
+    border: 1px;
+}
+
+.busca {
+    display: flex;
+    width: 145px;
+    height: 38px;
+    top: 10px;
+    left: 517px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+
+.busca input{
+    display: flex;
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    top: 7px;
+    left: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--cor-cinza);
+    border: thick;    
+}
+
+.botao__busca {
+    width: 88.42px;
+    height: 37px;
+    top: 82px;
+    left: 260.8px;
+    border: 1px solid#FFFFFF;
+    padding: 9px 12px 9px 12px;
+    gap: 6px;
+    background-color: #000000;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+
 }
