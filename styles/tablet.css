@@ -36,7 +36,7 @@
     display: flex;
     position: sticky;
     justify-content: space-between;
-    width: 245px;
+    width: 225px;
     height: 48px;
     top: 82px;
     left: 27px;
@@ -56,7 +56,7 @@
 .busca input{
     display: flex;
     position: absolute;
-    width: 128px;
+    width: 118px;
     height: 20px;
     top: 7px;
     left: 15px;
@@ -68,8 +68,8 @@
 }
 
 .botao__busca {
-    width: 88.42px;
-    height: 37px;
+    width: 67px;
+    height: 38px;
     top: 82px;
     left: 260.8px;
     border: 1px solid#FFFFFF;
