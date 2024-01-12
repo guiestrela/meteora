@@ -7,8 +7,91 @@
 
 /* tablet*/
 
+.logo__desktop {
+    display: none;
+}
+
 @media (max-width: 769px) {
+    
     .cabecalho {
         display: none;
+    }   
+}
+
+@media (min-width: 1440px) {
+
+    /*header*/
+
+    .cabecalho {
+        width: 1440px;
+        height: 58px;
+        
     }
+
+    .logo__tablet {
+        display: none;
+    }
+
+    .logo__desktop {
+        display: block;
+    }
+
+    .cabecalho__logo {
+        display: flex;
+        align-items: center;
+        position: sticky;
+        width: 1112px;
+        height: 32px;
+        top: 13px;
+        left: 23px;
+        gap: 40px;
+    }
+
+    /*menu*/
+
+    .nav {
+        gap: 40px;    
+    }
+
+    .nav a {
+        font-size: 16px;        
+    }
+
+    /*busca*/
+
+    .busca__container {
+        display: flex;
+        position: sticky;
+        justify-content: space-around;
+        width: 271px;
+        height: 48px;
+        left: 1151px;
+        top: 82px;
+        left: 27px;
+        border: 1px;
+    }
+
+    .busca {
+        width: 170px;
+        top: 9.5px;
+        left: 1151px;        
+    }
+
+    .busca input{       
+        width: 155px;
+        height: 24px;
+        top: 7.5px;       
+        
+        font-size: 15px;         
+    }
+
+    .botao__busca {
+        width: 80px;
+        height: 37px;
+        top: 9.5px;
+        left: 1337px;      
+        font-size: 16px;
+        font-weight: 500;
+    }
+
 }
