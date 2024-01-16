@@ -152,12 +152,3 @@ body {
 
 /*baner mob*/
 
-.banner {
-    display: flex;
-    position:absolute;
-    align-items: center;
-    background-image: url(../img/Banner_carousel_1_375.png);
-    width: 375px;
-    height: 415px;  
-    top: 144px; 
-}
