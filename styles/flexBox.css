@@ -3,6 +3,10 @@
     .cabecalho__mob {
         display: none;
     }
+
+    .img__mobile {
+        display: none;
+    }
 }
 
 /* tablet*/
@@ -15,7 +19,12 @@
     
     .cabecalho {
         display: none;
-    }   
+    }
+    
+    /*banner*/
+
+   
+    
 }
 
 @media (min-width: 1440px) {
@@ -93,5 +102,9 @@
         font-size: 16px;
         font-weight: 500;
     }
+
+    /*banner*/
+
+    
 
 }
