@@ -13,15 +13,16 @@ section.slider {
     width: 400%;
     height: auto;
     
-    /*
+    
     top: 144px;
-    */
-
+    
+    /*
     top: 58px;
+    */
 }
 
 .slider__content input, 
-.img__mobile, 
+.img__desktop, 
 .img__tablet {
     display: none;
 }
@@ -29,7 +30,7 @@ section.slider {
 .slide__box {
     width: 25%;
     height: auto;
-    position: absolute;
+    position: relative;
     text-align: center;
     transition: 0.5s;
 }
@@ -44,14 +45,16 @@ section.slider {
     position: absolute;
     width: 100%;
 
-    /* 
+    
     margin-top: 375px;
     margin-left: 143px; 
-    */
+    
 
+    /*
     margin-top: 393px;
-    margin-left: 705px;
-
+    margin-left: 143px; 
+    */
+    
     display: flex;
     justify-content: flex-start;
 }
