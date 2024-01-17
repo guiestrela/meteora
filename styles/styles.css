@@ -28,7 +28,7 @@ body {
 .cabecalho__mob {
     display: flex;
     position: absolute;
-    width: 375px;
+    width: 100%;
     height: 58px;
     background-color: var(--background-header);
     justify-content: space-between;

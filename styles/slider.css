@@ -93,3 +93,47 @@ section.slider {
 #radio3:checked ~ .primario {
     margin-left: -50%;
 }
+
+
+/* tablet */
+
+@media (min-width: 768px) {
+    .img__mobile {
+        display: none;
+    }
+    .img__tablet {
+        display: block;
+    }
+
+    .slider__content {
+        top: 58px;        
+    }
+
+    .slider__manual, 
+    .slider__auto {
+    margin-top: 393px;
+    margin-left: 143px;  
+    }
+}
+
+/* desktop */
+
+@media (min-width: 1440px) {
+    .img__desktop {
+        display: block;
+    }
+
+    .img__tablet {
+        display: none;
+    }
+
+    .slider__content {
+        top: 58px;        
+    }
+
+    .slider__manual, 
+    .slider__auto {
+    margin-top: 393px;
+    margin-left: 143px;  
+    }
+}
